@@ -1,0 +1,74 @@
+body{
+    font-family: Arial, sans-serif;
+    margin:auto;
+    padding:0;
+    background-color: #f4f4f4;
+}
+
+#resume{
+    max-width: 800px;
+    margin:0 auto ;
+    padding: 20px;
+    background: -webkit-linear-gradient(top, #f9f9 , #f4f4f4 50%);
+    background: linear-gradient(top, #f9f9 , #f4f4f4 50%);
+    border-radius: 10px;
+    box-shadow:0,0,10px rgba(0,0,0,0.1)
+}
+h1{
+    color: #333;
+}
+
+.collapsible{
+    margin-bottom: 10px;
+}
+
+.collapsible-btn{
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px;
+    text-align: left;
+    outline: none;
+    font-size:16px;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.collapsible-btn:hover{
+    background-color: #45a049;
+}
+.collapsible-btn:focus{
+    outline: none;
+}
+.collapsible-content{
+    display: none;
+    padding: 15px;
+    border-top: 1px solid #ddd;
+    background-color: #f9f9f9;
+}
+
+.collapsible-content p,
+.collapsible-content ul {
+    margin: 0;
+}
+
+@media (max-width:768px){
+    #resume{
+        padding: 10px;
+        width:95%;
+    }
+
+    h1,h2,p{
+        font-size:16px;
+    }
+
+    .collapsible-btn{
+        font-size: 14px;
+    }
+}
+
+
+
+
+
